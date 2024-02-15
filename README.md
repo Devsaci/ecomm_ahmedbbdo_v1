@@ -32,10 +32,15 @@
 ├── lib                             - Most important folder in the application, used to write most of the Dart code..
     ├── main.dart                   - Starting point of the application
     ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains static constant class file
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── presentation                - It contains widgets of the screens
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
+    │   ├── widgets
+    |   ├── di                 - .................................
+    |   ├── helper             - .................................
+    |   ├── network            - .................................
+    |   ├── routing            - .................................
+    │   ├── constants          - It contains static constant class file
+    │   └── utils              - It contains common files and utilities of the application
+    ├── feature                - It contains widgets of the screens
+    |   ├── Auth
+    |   ├── home               - It contains all the routes of the application
+    └── theme                  - It contains app theme and decoration classes
+    └──                        - It contains all custom widget classes
