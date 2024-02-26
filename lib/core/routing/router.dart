@@ -13,10 +13,11 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const Splash());
       case Routes.onBoarding:
         return MaterialPageRoute(builder: (_) => const OnBoarding());
+      default:
+        return MaterialPageRoute(
+            builder: (_) => Scaffold(
+                  body: Center(child: Text("No Route ${settings.name}")),
+                ));
     }
-
-    return MaterialPageRoute(
-      builder: (_) => const Text("data"),
-    );
   }
 }
