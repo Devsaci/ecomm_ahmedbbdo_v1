@@ -45,4 +45,5 @@
     └── theme                  - It contains app theme and decoration classes
     └──                        - It contains all custom widget classes
 
-1. 57. Introduction
+1. 57* Introduction.
+2. 58* App Router and Splash screen.
