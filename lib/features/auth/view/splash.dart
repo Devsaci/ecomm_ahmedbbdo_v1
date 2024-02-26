@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 class Splash extends StatefulWidget {
@@ -9,9 +11,18 @@ class Splash extends StatefulWidget {
 
 class _SplashState extends State<Splash> {
   @override
+  void initState() {
+    super.initState();
+    Timer(
+      const Duration(seconds: 2),
+      () {},
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor: Colors.amber),
+      //appBar: AppBar(backgroundColor: Colors.amber),
       //backgroundColor: Color.fromARGB(26, 216, 143, 59),
       body: Image.asset("assets/images/Logo_Splash_Screen.png"),
     );
