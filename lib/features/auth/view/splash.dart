@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:ecomm_ahmedbbdo_v1/core/constants/string.dart';
 import 'package:flutter/material.dart';
 
 class Splash extends StatefulWidget {
@@ -15,7 +16,9 @@ class _SplashState extends State<Splash> {
     super.initState();
     Timer(
       const Duration(seconds: 2),
-      () {},
+      () {
+        Navigator.pushReplacementNamed(context, Routes.onBoarding);
+      },
     );
   }
 
