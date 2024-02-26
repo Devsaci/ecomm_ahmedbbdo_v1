@@ -10,6 +10,8 @@ class Splash extends StatefulWidget {
 class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Scaffold(
+      backgroundColor: Color.fromARGB(26, 239, 250, 194),
+    );
   }
 }
