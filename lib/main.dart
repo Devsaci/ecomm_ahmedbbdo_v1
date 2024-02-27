@@ -7,8 +7,9 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({super.key, required this.appRouter});
 
+  final AppRouter appRouter;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
