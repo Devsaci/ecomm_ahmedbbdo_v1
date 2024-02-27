@@ -27,8 +27,17 @@ class _SplashState extends State<Splash> {
     return Scaffold(
       //appBar: AppBar(backgroundColor: Colors.amber),
       //backgroundColor: Color.fromARGB(26, 216, 143, 59),
-      body: Center(
-        child: Image.asset("assets/images/Logo_Splash_Screen.png"),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          //asset image in splash
+          Image.asset("assets/images/Logo_Splash_Screen.png"),
+          //text in splash
+          const Text(
+            "splash Screen ", // splash
+          )
+        ],
+        // creat text in splash
       ),
     );
   }
