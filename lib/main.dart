@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         ),
         onGenerateRoute: appRouter.generateRoute,
         //home: const Splash(),
-        initialRoute: Routes.onBoarding,
+        initialRoute: Routes.splash,
       ),
     );
   }
