@@ -27,7 +27,9 @@ class _SplashState extends State<Splash> {
     return Scaffold(
       //appBar: AppBar(backgroundColor: Colors.amber),
       //backgroundColor: Color.fromARGB(26, 216, 143, 59),
-      body: Image.asset("assets/images/Logo_Splash_Screen.png"),
+      body: Center(
+        child: Image.asset("assets/images/Logo_Splash_Screen.png"),
+      ),
     );
   }
 }
