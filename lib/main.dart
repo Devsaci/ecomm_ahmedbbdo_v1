@@ -3,7 +3,11 @@ import 'package:ecomm_ahmedbbdo_v1/features/auth/view/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MyApp(
+      appRouter: AppRouter(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
