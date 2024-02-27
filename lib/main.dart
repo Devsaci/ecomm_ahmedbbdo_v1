@@ -1,6 +1,7 @@
 import 'package:ecomm_ahmedbbdo_v1/core/routing/router.dart';
 import 'package:ecomm_ahmedbbdo_v1/features/auth/view/splash.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
   runApp(
@@ -16,13 +17,15 @@ class MyApp extends StatelessWidget {
   final AppRouter appRouter;
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Marketic',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+    return ScreenUtilInit(
+      child: MaterialApp(
+        title: 'Marketic',
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          useMaterial3: true,
+        ),
+        home: const Splash(),
       ),
-      home: const Splash(),
     );
   }
 }
