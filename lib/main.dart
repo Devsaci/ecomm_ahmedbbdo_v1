@@ -1,3 +1,4 @@
+import 'package:ecomm_ahmedbbdo_v1/core/constants/string.dart';
 import 'package:ecomm_ahmedbbdo_v1/core/routing/router.dart';
 import 'package:ecomm_ahmedbbdo_v1/features/auth/view/splash.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         onGenerateRoute: appRouter.generateRoute,
-        home: const Splash(),
+        //home: const Splash(),
+        initialRoute: Routes.onBoarding,
       ),
     );
   }
