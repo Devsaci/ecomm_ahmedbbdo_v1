@@ -1,11 +1,12 @@
 import 'package:ecomm_ahmedbbdo_v1/core/constants/string.dart';
-import 'package:ecomm_ahmedbbdo_v1/features/auth/view/splash.dart';
+import 'package:ecomm_ahmedbbdo_v1/features/onbording/view/splash.dart';
 import 'package:flutter/material.dart';
 
-import '../../features/auth/view/onBoarding.dart';
+import '../../features/onbording/view/onBoarding.dart';
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
+    // ignore: unused_local_variable
     final arguments = settings.arguments;
 
     switch (settings.name) {
