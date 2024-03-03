@@ -15,7 +15,7 @@ class _SplashState extends State<Splash> {
   void initState() {
     super.initState();
     Timer(
-      const Duration(seconds: 2),
+      const Duration(seconds: 5),
       () {
         Navigator.pushReplacementNamed(context, Routes.onBoarding);
       },
@@ -25,8 +25,9 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //appBar: AppBar(backgroundColor: Colors.amber),
-      //backgroundColor: Color.fromARGB(26, 216, 143, 59),
+      appBar: AppBar(backgroundColor: Colors.amber),
+      //backgroundColor: const Color.fromARGB(26, 146, 113, 239),
+
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
