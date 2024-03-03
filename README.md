@@ -53,3 +53,4 @@ flutter_screenutil.
 2. 58* App Router and Splash screen.
 3. 59* Screen Utils & App Color
 4. 60* OnBoarding Mode
+5. 61* OnBoarding Model
