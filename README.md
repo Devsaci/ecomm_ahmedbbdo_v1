@@ -54,3 +54,4 @@ flutter_screenutil.
 3. 59* Screen Utils & App Color
 4. 60* OnBoarding Mode
 5. 61* OnBoarding Model
+6. 62* Onboarding UI & Logic
