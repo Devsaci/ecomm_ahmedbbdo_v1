@@ -26,24 +26,28 @@
 ## Getting Started
 
 .
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
+├── android          - It contains files required to run the application on an Android platform.
+├── assets           - It contains all images and fonts of your application.
+├── ios              - It contains files required to run the application on an iOS platform.
+├── lib              - Most important folder in the application, used to write most of the Dart code..
+    ├── main.dart         - Starting point of the application
     ├── core
     │   ├── widgets
-    |   ├── di                 - .................................
-    |   ├── helper             - .................................
-    |   ├── network            - .................................
-    |   ├── routing            - .................................
-    │   ├── constants          - It contains static constant class file
-    │   └── utils              - It contains common files and utilities of the application
-    ├── feature                - It contains widgets of the screens
+    |   ├── di            - .................................
+    |   ├── helper        - .................................
+    |   ├── network       - .................................
+    |   ├── routing       - .................................
+    │   ├── constants     - It contains static constant class file
+    │   └── utils         - It contains common files and utilities of the application
+    ├── feature           - It contains widgets of the screens
     |   ├── Auth
-    |   ├── home               - It contains all the routes of the application
-    └── theme                  - It contains app theme and decoration classes
-    └──                        - It contains all custom widget classes
+    |   ├── home          - It contains all the routes of the application
+    └── theme             - It contains app theme and decoration classes
+    |──                   - It contains all custom widget classes.
+
+## packages
+
+flutter_screenutil.
 
 1. 57* Introduction.
 2. 58* App Router and Splash screen.
