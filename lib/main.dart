@@ -27,8 +27,10 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        onGenerateRoute: appRouter.generateRoute,
+        // onGenerateRoute: appRouter.generateRoute,
         //home: const Splash(),
+        // initialRoute: Routes.splash,
+        onGenerateRoute: appRouter.generateRoute,
         initialRoute: Routes.splash,
       ),
     );
