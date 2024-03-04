@@ -36,6 +36,22 @@ class OnBoarding extends StatelessWidget {
                           color: const Color.fromARGB(255, 149, 202, 245),
                         ),
                       ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 8),
+                        child: Column(
+                          children: [
+                            Row(
+                              children: [
+                                ...List.generate(
+                                  onBordingList.length,
+                                  (index) => AnimatedContainer(
+                                      duration: const Duration()),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                   itemCount: onBordingList.length,
