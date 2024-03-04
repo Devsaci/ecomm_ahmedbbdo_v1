@@ -45,7 +45,17 @@ class OnBoarding extends StatelessWidget {
                                 ...List.generate(
                                   onBordingList.length,
                                   (index) => AnimatedContainer(
-                                      duration: const Duration()),
+                                    duration: const Duration(milliseconds: 150),
+                                    margin: const EdgeInsets.only(right: 5),
+                                    height: 6,
+                                    width: index == 0 ? 20 : 6,
+                                    decoration: BoxDecoration(
+                                      color: index == 0
+                                          ? Colors.blue
+                                          : Colors.grey,
+                                      borderRadius: BorderRadius.circular(3),
+                                    ),
+                                  ),
                                 ),
                               ],
                             ),
