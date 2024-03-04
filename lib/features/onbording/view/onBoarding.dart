@@ -9,7 +9,10 @@ class OnBoarding extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Colors.white,
-      body: Center(child: Text('OnBoarding')),
+      body: SafeArea(
+          child: SizedBox(
+        width: double.infinity,
+      )),
     );
   }
 }
