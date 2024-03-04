@@ -3,6 +3,7 @@
 import 'package:ecomm_ahmedbbdo_v1/core/utils/onbording_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class OnBoarding extends StatelessWidget {
   const OnBoarding({super.key});
@@ -21,6 +22,9 @@ class OnBoarding extends StatelessWidget {
                 child: PageView.builder(
                   itemBuilder: (context, index) => Column(
                     children: [
+                      SizedBox(
+                        height: 50.h,
+                      ),
                       Image.asset(
                         onBordingList[index].image!,
                       ),
