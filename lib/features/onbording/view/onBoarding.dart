@@ -30,6 +30,12 @@ class OnBoarding extends StatelessWidget {
                       Image.asset(
                         onBordingList[index].image!,
                       ),
+                      SizedBox(
+                        height: 20.h,
+                        child: Container(
+                          color: const Color.fromARGB(255, 149, 202, 245),
+                        ),
+                      ),
                     ],
                   ),
                   itemCount: onBordingList.length,
