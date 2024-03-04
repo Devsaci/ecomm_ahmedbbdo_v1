@@ -17,9 +17,7 @@ class OnBoarding extends StatelessWidget {
             children: <Widget>[
               Expanded(
                 child: PageView.builder(
-                  itemBuilder: (context, index) {
-                    return const Text('OnBoarding');
-                  },
+                  itemBuilder: (context, index) => Column(),
                 ),
               ),
             ],
