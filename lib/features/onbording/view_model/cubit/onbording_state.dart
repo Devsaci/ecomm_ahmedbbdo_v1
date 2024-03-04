@@ -4,3 +4,5 @@ part of 'onbording_cubit.dart';
 abstract class OnbordingState {}
 
 class OnbordingInitial extends OnbordingState {}
+
+class NextPageState extends OnbordingState {}
