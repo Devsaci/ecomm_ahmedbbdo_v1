@@ -10,9 +10,13 @@ class OnBoarding extends StatelessWidget {
     return const Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-          child: SizedBox(
-        width: double.infinity,
-      )),
+        child: SizedBox(
+          width: double.infinity,
+          child: Column(
+            children: [],
+          ),
+        ),
+      ),
     );
   }
 }
