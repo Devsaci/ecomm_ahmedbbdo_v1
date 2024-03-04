@@ -21,7 +21,9 @@ class OnBoarding extends StatelessWidget {
                 child: PageView.builder(
                   itemBuilder: (context, index) => Column(
                     children: [
-                      Image.asset(""),
+                      Image.asset(
+                        onBordingList[index].image!,
+                      ),
                     ],
                   ),
                   itemCount: onBordingList.length,
