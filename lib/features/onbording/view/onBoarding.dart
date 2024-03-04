@@ -19,7 +19,11 @@ class OnBoarding extends StatelessWidget {
               Expanded(
                 flex: 3,
                 child: PageView.builder(
-                  itemBuilder: (context, index) => Column(),
+                  itemBuilder: (context, index) => Column(
+                    children: [
+                      Image.asset(""),
+                    ],
+                  ),
                   itemCount: onBordingList.length,
                 ),
               ),
