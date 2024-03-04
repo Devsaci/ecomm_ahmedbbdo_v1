@@ -16,6 +16,7 @@ class OnBoarding extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Expanded(
+                flex: 3,
                 child: PageView.builder(
                   itemBuilder: (context, index) => Column(),
                 ),
